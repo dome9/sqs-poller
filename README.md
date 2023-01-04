@@ -1,5 +1,5 @@
 sqs-poller
-----------
+---------- 
 A simple nodejs AWS SQS message poller with configurable winston back-end for multiple logging & storage formats (local file, syslog, etc...). <br>
 This could be a great way to push (actually pull) these messages into Splunk, Logstash, and SIEM systems that are run behind the firewall.<br>
 This script can run once - until sqs queue is empty (or max_uptime reached), or run 'forever' - long polling the sqs and getting messages in real-time (ish)
